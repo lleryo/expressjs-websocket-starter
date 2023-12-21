@@ -12,7 +12,7 @@ class CustomErrorHandler extends Error {
 
 
 
-export const ErrorHandler = (error: CustomErrorHandler & Partial<Error>, request: Request, response: Response, next: NextFunction) => {
+export const ErrorHandler = (error: CustomErrorHandler & Partial<Error>, _request: Request, _response: Response, _next: NextFunction) => {
     console.log('Stack', error.stack)
 }
 

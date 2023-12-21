@@ -9,7 +9,7 @@ import cookieParser from 'cookie-parser';
 
 // import routes
 import { ErrorHandler } from './middleware/error';
-import { WebSocketServerConnection } from './web/sockets';
+import { WebSocketServerConnection } from './sockets';
 
 // Set port
 const PORT = process.env.PORT || 6556;
